@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+
+/*Encabezado*/
+
+
+.header {
+    background-color:#eeeaea;
+    padding: 20px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 140px;
+    max-height: 150px;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 70px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.info {
+    margin-top: 40px;
+
+}
+.info p {
+    margin: 5px 0;
+}
+
+
+/*Banner*/
+
+.banner-img{
+    width: 100%;
+}
+
+
+
+/*propiedades*/
+
+
+.propiedades {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.propiedad {
+    display: inline-block;
+    margin: 5px 55px;
+    
+}
+
+.img_p {
+    height: 320px;
+}
+
+
+/*datos de quienes somos*/
+
+.titulo-quienes-somos {
+    text-align: center;
+    margin-top: 50px;
+}
+.quienes_somos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*formulario contacto*/
+.titulo_contacto {
+    text-align: center;
+}
+
+.contacto {
+    margin-top: 10px;
+}
+
+.form {
+    
+}
+.form-grupo{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    margin-top: 10px;
+}
+
+
+/*pie de pagina*/
+
+
+.footer {
+    background-color: #34393d;
+    color: white;
+    display: flex;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+    
+}
+
+
+@media (max-width: 768px) {
+    .propiedad {
+        width: 100%;
+    }
+}

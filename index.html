@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria Carrillo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <img src="logo.jpeg" alt="Logo Inmobiliaria" class="logo">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#propiedades" class="nav-link">Propiedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#quienes-somos" class="nav-link">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="info">
+                    <p>Correo: carrillo@gmail.com</p>
+                    <p>Sucursales: Dirección Yaven 466</p>
+                    <p>Horarios: Lunes a Viernes 9:00 - 18:00, Sábado 10:00 - 14:00</p>
+                </div>
+            </nav>
+            
+        </div>
+    </header>
+
+
+    <!--Banner-->
+    <section class="banner-principal" id="inicio">
+        <img class="banner-img" src="baner.png" alt="Imagen banner inmobiliaria">
+    </section>
+
+
+    <!--Propiedades-->
+    <div class="principal-propiedades">
+        <div>
+            <h2 id="propiedades">Propiedades Destacadas</h2>
+        </div>
+
+        <section class="propiedades" >
+    
+            <div class="contenedor_propiedades">
+                <div class="propiedad">
+                    <img class="img_p" src="propiedad_1.jpeg" alt="Imagen de la propiedad 1">
+                    <div class="caja-informacion">
+                        <h3>Casa en Venta en el Centro</h3>
+                        <p>Hermosa casa de 3 habitaciones y 2 baños.</p>
+                        <span class="precio">$200,000</span>
+                    </div>
+                </div>
+    
+                <div class="propiedad">
+                    <img class="img_p" src="propiedad_2.jpeg" alt="Imagen de la propiedad 2">
+                    <div class="caja-informacion">
+                        <h3>Departamento en Alquiler</h3>
+                        <p>Departamento de 2 habitaciones y 1 baño.</p>
+                        <span class="precio">$800/mes</span>
+                    </div>
+                </div>
+    
+                <div class="propiedad">
+                    <img class="img_p" src="propiedad_3.jpeg" alt="Imagen de la propiedad 3">
+                    <div class="caja-informacion">
+                        <h3>Terreno en Venta</h3>
+                        <p>Terreno de 500m² en zona residencial.</p>
+                        <span class="precio">$50,000</span>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+
+    <!--Quienes Somos-->
+    <h2 class="titulo-quienes-somos">¿Quienes Somos?</h2>
+    <section class="quienes_somos" id="quienes-somos">    
+        <div class="contenido-quienes-somos">
+            <h3>Nuestra Historia</h3>
+            <p>¡Gracias por elegirnos para la búsqueda de tu casa, SUR abrió sus puertas en Ushuaia en 1995, un 2 de septiembre, o sea que llevamos en esta ciudad que amamos, casi 28 años, un montón! </p>
+
+            <h3>Misión y Visión</h3>
+            <p>
+                Te invitamos a utilizar las herramientas de nuestra página web para encontrar el inmueble o servicio que estabas buscando, somos un GRAN equipo, en constante crecimiento, con experiencia en el rubro, especializado</p>
+
+            <h3>Nuestro Equipo</h3>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>    
+
+    </section>
+
+            
+
+
+    <!-- Sección Contacto -->
+    <div>
+        <h2 class="titulo_contacto">Contacto</h2>
+    <section id="contacto" class="contacto">
+
+        <form class="form">
+
+            <div class="form-grupo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required>
+            </div>
+
+            <div class="form-grupo">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" required>
+            </div>
+
+            <div class="form-grupo">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" required>
+            </div>
+
+            <div class="form-grupo">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" rows="3" required></textarea>
+            </div>
+
+            <button class="form-grupo" type="submit">Enviar</button>
+        </form>
+    </section>
+    </div>
+    
+
+    
+            <!-- Pie de Página -->
+    <footer class="footer">
+        <div>
+            <p>Enlaces a redes sociales</p>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+            </ul>
+        </div>
+
+        <div>
+            <p>
+                <a href="">Políticas de privacidad</a> |
+                <a href="">Términos y condiciones</a>
+            </p>
+            
+            <p>
+                &copy; 2024 Inmobiliaria. Todos los derechos reservados.
+            <p>
+        </div>
+    </footer>
+    
+</body>
+</html>
